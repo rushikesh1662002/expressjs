@@ -2,7 +2,7 @@ let express = require("express");
 let db = require("./db");
 const { escapeXML } = require("ejs");
 let app = express();
-let port_no = 7000;
+let port_no = process.env.PORT || 7000;
 
 //registerd views and public folder
 app.use(express.static("public"));
