@@ -1,0 +1,51 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #77bdef;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="/images/giris-tech-hub.svg" alt="Logo" width="42" height="30" class="d-inline-block align-text-top">
+        Giri's Tech Hub
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Course Master -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="courseDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Course Master
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="courseDropdown">
+              <li><a class="dropdown-item" href="/addCourse">Add Course</a></li>
+              <li><a class="dropdown-item" href="/viewCourse">View Courses</a></li>
+            </ul>
+          </li>
+
+          <!-- Student Master -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="studentDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Student Master
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="studentDropdown">
+              <li><a class="dropdown-item" href="/addStudent">Add Student</a></li>
+              <li><a class="dropdown-item" href="/viewStudent">View Student</a></li>
+            </ul>
+          </li>
+
+          <!-- Report -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="reportDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Report
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="reportDropdown">
+              <li><a class="dropdown-item" href="/courseWiseStudent">Course Wise Student</a></li>
+              <li><a class="dropdown-item" href="/countStudent">Count Student</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

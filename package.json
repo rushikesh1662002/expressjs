@@ -1,0 +1,24 @@
+{
+  "name": "express-js-mini-project",
+  "version": "1.0.0",
+  "description": "Take student admission for course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushikesh1662002/expressjs.git"
+  },
+  "author": "Rushikesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushikesh1662002/expressjs/issues"
+  },
+  "homepage": "https://github.com/rushikesh1662002/expressjs#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
