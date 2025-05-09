@@ -1,5 +1,7 @@
+require('dotenv').config();
 let express = require("express");
 let db = require("./db");
+app.use(express.json());
 const { escapeXML } = require("ejs");
 let app = express();
 let port_no = process.env.PORT || 7000;
