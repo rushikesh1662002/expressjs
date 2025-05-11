@@ -14,9 +14,9 @@
 ![image](https://github.com/user-attachments/assets/515fceb1-d818-4771-b6d5-8c805c3e0360)
 ![image](https://github.com/user-attachments/assets/96a9bafd-271a-4479-9562-8c4d91ceb19b)
 
-How to run this project?  
+**How to run this project?**  
 **Install** :  
 1) npm install -g nodemon
 2) npm i express ejs mysql2
 3) In db.js file correct the database details
-4) type command -> nodemon index.js or node index.js
+4) Type command -> nodemon index.js or node index.js
