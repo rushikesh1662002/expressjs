@@ -1,7 +1,6 @@
 require('dotenv').config();
 let express = require("express");
 let db = require("./db");
-app.use(express.json());
 const { escapeXML } = require("ejs");
 let app = express();
 let port_no = process.env.PORT || 7000;
@@ -24,7 +23,14 @@ app.post("/addCourseData", (req, res) => {
     let cname = req.body.cname;
     db.query("insert into course values ('0',?)", [cname], (err, result) => {
         if (err) {
-            console.log("Some Problem!!!", err);
+            let m = "Something went wrong!";
+            
+            // Detect duplicate entry error (MySQL error code: ER_DUP_ENTRY = 1062)
+            if (err.code === 'ER_DUP_ENTRY') {
+                m = "Course already exists!";
+            }
+
+            res.render("addCourse.ejs", { msg: m });
         }
         else {
             res.render("addCourse.ejs", { msg: "Course added successfully..." });
