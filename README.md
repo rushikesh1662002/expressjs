@@ -1,4 +1,4 @@
-# ****************** Student enrollment System *****************
+# ****************** Student Enrollment System *****************
 **This is a mini project for a Student Enrollment System admin panel.**  
 **Frontend Technologies**: HTML, CSS, Bootstrap  
 **Backend Technologies**: Node.js, Express.js, AJAX  
