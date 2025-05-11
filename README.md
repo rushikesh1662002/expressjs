@@ -1,4 +1,4 @@
-#******************bold  Student enrollment System *****************
+# ****************** Student enrollment System *****************
 This is mini project for student enrollment system admin panel
 
 
