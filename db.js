@@ -1,9 +1,9 @@
 let mysql = require("mysql2");
 
 let conn = mysql.createConnection({
-    host: "localhost",        // Get DB_HOST from .env
-    user: "root",        // Get DB_USER from .env
-    password: "Rushi", // Get DB_PASSWORD from .env
+    host: "localhost",       
+    user: "root",       
+    password: "Rushi", 
     database: "rushi"   
 });
 conn.connect((err)=>{
