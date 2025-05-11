@@ -1,8 +1,8 @@
 # ****************** Student enrollment System *****************
-**This is mini project for student enrollment system admin panel**
-**Frontend technologies** : Html,CSS,Bootstrap
-**Backend technolofies** : Node,Express js,Ajax
-**Database** : Mysql
+**This is mini project for student enrollment system admin panel**  
+**Frontend technologies** : Html,CSS,Bootstrap  
+**Backend technolofies** : Node,Express js,Ajax  
+**Database** : Mysql  
 
 
 
