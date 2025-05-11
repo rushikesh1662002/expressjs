@@ -19,3 +19,4 @@ How to run this project?
 1) npm install -g nodemon
 2) npm i express ejs mysql2
 3) In db.js file correct the database details
+4) type command -> nodemon index.js or node index.js
